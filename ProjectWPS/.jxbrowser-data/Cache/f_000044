@@ -1,0 +1,752 @@
+[
+  {
+    "text": "MSP430G2001",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2101",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2102",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2111",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2112",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2113",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2121",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2131",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2132",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2152",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2153",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2201",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2202",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2203",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2210",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2211",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2212",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2213",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2221",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2230",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2231",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2232",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2233",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2252",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2253",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2302",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2303",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2312",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2313",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2332",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2333",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2352",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2353",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2402",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2403",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2412",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2413",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2432",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2433",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2444",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2452",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2453",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2513",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2533",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2544",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2553",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2744",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2755",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2855",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  },
+  {
+    "text": "MSP430G2955",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "state": {
+      "opened": false
+    },
+    "url": "/api/resources?path=Device%20Documentation/MSP430G2XX&package=",
+    "overviewDescription": "MSP430G2xx 16 bit Microcontroller Series – The cost effective MSP430G2xx 16 bit Microcontroller Value series features flash-based Ultra-Low Power MCUs up to 16 MIPS with 1.8V - 3.6V operation. Includes the Very-Low power Oscillator (VLO), internal pull-up/pull-down resistors, and low-pin count options.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_03_07/.metadata/.tirex/images/msp430g2xx_square.png",
+    "packageOrder": 0
+  }
+]

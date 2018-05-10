@@ -1,0 +1,269 @@
+#include <msp430.h>
+//#include <math.h>
+
+double next(double r, double x) {
+    static double one_over_ln2 = 1.4426950408889634;
+    return r - one_over_ln2 * (1 - x / (1 << static_cast<int>(r)));
+
+double log2(double x) {
+    static double epsilon = 0.000000001; // change this to change accuracy
+    double r = x / 2;. // better first guesses converge faster
+    double r2 = next(r, x);
+    double delta = r - r2;
+    while (delta * delta > epsilon) {
+        r = r2;
+        r2 = next(r, x);
+        delta = r - r2
+    }
+    return r2;
+}
+
+double log10(double x) {
+    static double log2_10 = log2(10);
+    return log2(x) / log2_10;
+}
+
+/*************************store position*********************************/
+struct position{
+    double x;
+    double y;
+};
+
+/*************************function***************************************/
+void UART_send_char(unsigned char data){
+    while (!(IFG2&UCA0TXIFG)); // Doi gui xong ky tu truoc
+    UCA0TXBUF= data; // Moi cho phep gui ky tu tiep theo
+}
+
+void UART_send_string(char* string){
+    while(*string){
+        while (!(IFG2&UCA0TXIFG)); // Doi gui xong ky tu truoc
+        UCA0TXBUF= *string;
+        string++;
+    }
+}
+
+void UART_send_int(unsigned long n)
+{
+     unsigned char buffer[16];
+     unsigned char i,j;
+
+     if(n == 0) {
+         UART_send_char('0');
+          return;
+     }
+
+     for (i = 15; i > 0 && n > 0; i--) {
+          buffer[i] = (n%10)+'0';
+          n /= 10;
+     }
+
+     for(j = i+1; j <= 15; j++) {
+         UART_send_char(buffer[j]);
+     }
+}
+
+void UART_send_float(double x, unsigned char coma)
+{
+    unsigned long temp;
+    if(coma>4)coma=4;
+    // de trong 1 ki tu o dau cho hien thi dau
+    if(x<0)
+    {
+        UART_send_char('-');           //In so am
+        x*=-1;
+    }
+    temp = (unsigned long)x;                                    // Chuyan thanh so nguyen.
+
+    UART_send_int(temp);
+
+    x=((float)x-temp);//*mysqr(10,coma);
+    if(coma!=0)UART_send_char('.');    // In ra dau "."
+    while(coma>0)
+    {
+        x*=10;
+        coma--;
+    }
+    temp=(unsigned long)(x+0.5);    //Lam tron
+    UART_send_int(temp);
+}
+
+char UART_read_char(){
+    while (!(IFG2&UCA0RXIFG)); // Doi gui xong ky tu truoc
+    return UCA0RXBUF; // Moi cho phep nhan ky tu tiep theo
+}
+
+void CLOCK_setup(){
+    // If calibration constant erased
+    if (CALBC1_1MHZ==0xFF){
+        while(1);                             // do not load, trap CPU!!
+    }
+
+    DCOCTL = 0;                               // Select lowest DCOx and MODx settings
+    BCSCTL1 = CALBC1_1MHZ;                    // Set DCO
+    DCOCTL = CALDCO_1MHZ;
+}
+
+void UART_INIT(){
+    P1SEL |= BIT1 + BIT2 ;                    // P1.1 = RXD, P1.2=TXD
+    P1SEL2 |= BIT1 + BIT2;
+    UCA0CTL1 |= UCSSEL_2;                     // SMCLK
+    UCA0BR0 = 104;                            // 1MHz 9600
+    UCA0BR1 = 0;                              // 1MHz 9600
+    UCA0MCTL = UCBRS0;                        // Modulation UCBRSx = 1
+    UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
+    IE2 |= UCA0RXIE;                          // Enable USCI_A0 RX interrupt ||||| bring this line to main.c directly
+    _BIS_SR(GIE);
+}
+
+void send_cmd(char SSID[]){ // coi lai dum t ham nay nha
+    UART_send_string("AT+CWLAP=\"");
+    UART_send_string(SSID);
+    UART_send_string("\"\r\n");
+}
+
+void ConnectAP(char SSID[],char password[]){
+    UART_send_string("AT+CWJAP=\"");
+    UART_send_string(SSID);
+    UART_send_string("\",\"");
+    UART_send_string(password);
+    UART_send_string("\"\r\n");
+}
+
+void StartTCPServer(char IP[],char port[]){
+    UART_send_string("AT+CIPSTART=\"TCP\",\"");
+    UART_send_string(IP);
+    UART_send_string("\",");
+    UART_send_string(port);
+    UART_send_string("\r\n");
+}
+
+double getDistance(double rssi_in, int freq ){
+    //return pow(10,(27.55 - ( 20 * log10(freq) ) - rssi_in) / 20.0);
+    return log10(20);
+}
+
+
+struct position getPosition(double distance[], struct position ap1, struct position ap2, struct position ap3 ){
+    struct position result;
+    result.y= (distance[0]*distance[0] - distance[1]*distance[1] + ap2.y*ap2.y)/(2*ap2.y);
+    result.x=  ( (distance[0]*distance[0] - distance[2]*distance[2] + ap3.y*ap3.y + ap3.x*ap3.x) / (2*ap3.x) ) - ( (ap3.y/ap3.x) / result.y);
+
+    return result;
+}
+
+
+int get_RSSI(char s[]){   //+CWLAP:(-91)
+    unsigned int j;
+    for(j = 0;j< 150; j++){
+        if(s[j] == '(' && s[j+1] == '-')
+            return -(int)((s[j+2] - 48 )*10+(s[j+3]-48));
+    }
+}
+
+void getAP_cor(struct position ap1, struct position ap2, struct position ap3,char* received_str){
+    unsigned int j;
+    for(j = 0, j < 150, j++){
+
+    }
+}
+
+char* SSID[3] = {"EmbeddedSystem", "ES_02", "ES_03"};
+char* AP[2] = {"EmbeddedSystem","12345678"};
+char* IP = "192.168.1.78";
+char* port = "5000";
+//char* SSID[3] = {"Overlord", "Minh Ha", "HoangPhuc"};
+char str_received[150];     //static string, receive rssi
+unsigned int flag = 0;      //check for finishing receive string
+unsigned int i = 0;         //positon at array str_received
+int RSSI[3];                //store strenght of wifi
+double distance[3];         //store distance between msp and wifi
+const int FREQUENCY = 2400; //MHz, 2,4 GHz
+struct position pos;
+int main(void){
+    WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer
+    CLOCK_setup();
+    UART_INIT();
+
+    //UART_send_string("AT+CWMODE=1\r\n"); // get rssi only
+    //_delay_cycles(2000000); //2 sec
+    UART_send_string("AT+CWLAPOPT=1,4\r\n"); // get rssi only
+    _delay_cycles(2000000); //2 sec
+
+    send_cmd(SSID[0]);
+    while(flag==0);
+    RSSI[0] = get_RSSI(str_received);
+    //str_received[0] = '\0';
+    flag=0;
+
+    send_cmd(SSID[1]);
+    while(flag==0);
+    RSSI[1] = get_RSSI(str_received);
+    flag=0;
+
+    send_cmd(SSID[2]);
+    while(flag==0);
+    RSSI[2] = get_RSSI(str_received);
+    flag=0;
+
+    //_delay_cycles(1000000);
+    distance[0]=getDistance(RSSI[0],FREQUENCY);
+    distance[1]=getDistance(RSSI[1],FREQUENCY);
+    distance[2]=getDistance(RSSI[2],FREQUENCY);
+    //_delay_cycles(1000000);
+    ConnectAP(AP[0],AP[1]); //connect to AP
+    _delay_cycles(10000000);
+    StartTCPServer(IP,port);                //start TCP server
+    _delay_cycles(5000000);
+    struct position ap[3];
+    i=0;
+    /*
+    ap[0].x =0;
+    ap[0].y =1200;
+    ap[1].x=600;
+    ap[1].y=1120;
+    ap[2].x=600;
+    ap[2].y=380;
+    */
+    pos = getPosition(distance, ap[0],ap[1],ap[2]);
+
+
+    //UART_send_string("AT+CWQAP\r\n"); //disconnect AP
+    //_delay_cycles(5000000);
+
+    UART_send_string("AT+CIPMODE=1\r\n"); //enable UART-wifi passthrough mode
+    _delay_cycles(5000000);
+    UART_send_string("AT+CIPSEND\r\n"); //start sending
+    _delay_cycles(1000000);//data
+    // format "TenNhom,X,Y"
+    UART_send_string("69,");
+    UART_send_float(pos.x,4);
+    //UART_send_float(902.222,4);
+    UART_send_string(",");
+    UART_send_float(pos.y,4);
+    //UART_send_float(1002.222,4);
+    _delay_cycles(100000);
+    UART_send_string("+++");
+    _delay_cycles(2000000);
+    //UART_send_string("AT+CIPMODE=0\r\n");//disable UART-wifi passthrough mode
+    //UART_send_string("AT+CIPCLOSE\r\n"); //close TCP server
+    return 0;
+
+}
+
+#pragma vector=USCIAB0RX_VECTOR
+__interrupt void USCI0RX_ISR(void){
+
+    if(!flag){ // co hieu ket thuc chuoi
+        str_received[i]=UART_read_char();
+        if(str_received[i]==')'){
+            i=0;
+            flag=1;
+        }
+        else {
+            i=i+1;
+            if (i==149) i=0;
+        }
+    }
+
+}
