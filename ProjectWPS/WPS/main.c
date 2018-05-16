@@ -11,8 +11,8 @@ char str_received[150];     //static string, receive rssi
 unsigned int flag = 0;      //check for finishing receive string
 unsigned int i = 0;         //positon at array str_received
 char* SSID[3] = {"nhom09", "joshep", "B&K wifi"};
-char* WIFI[2] = {"Connectify-QQ","11111111"};
-char* IP = "192.168.223.50";
+char* WIFI[2] = {"wifi-chua","23581998"};
+char* IP = "192.168.137.196";
 char* port = "8000";
 int RSSI[3];                //store strenght of wifi
 unsigned int stage;         //stage 0 get rssi, stage 1 get position from server
@@ -168,57 +168,51 @@ void getCor(char* buffer, struct position *ap1, struct position *ap2, struct pos
     unsigned int coma = 0; //dau phay thu may lam hoat dong gi
     unsigned int temp = 0;
     for(j = 0;j< 150; j++){
-        if (buffer[j] == '.') break;
-        if (buffer[j] == ',') coma++;
-        /*
-        temp = temp + buffer[j] - '0';
-        if(buffer[j+1]!= ','||buffer[j+1]!= '.')
-           temp *= 10;
-        else {
-        */
-            switch(coma){
-            case 0:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= ',')
-                    temp *= 10;
-                else ap1->x = temp;
-                break;
-            case 1:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= ',')
-                    temp *= 10;
-                else ap1->y = temp;
-                break;
-            case 2:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= ',')
-                    temp *= 10;
-                else ap2->x = temp;
-                break;
-            case 3:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= ',')
-                    temp *= 10;
-                else ap2->y = temp;
-                break;
-            case 4:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= ',')
-                    temp *= 10;
-                else ap3->x = temp;
-                break;
-            case 5:
-                temp = temp + buffer[j] - '0';
-                if(buffer[j+1]!= '.')
-                    temp *= 10;
-                else ap3->y = temp;
-                break;
-            default: break;
-            }
+        //if()
+        if(buffer[j] == ','){
+            coma++;
+            j++;
         }
-        //if(buffer[j+1] == '.' ) ap3->y = temp;
+        //else{
+        temp = temp + buffer[j] - '0'; // tach tung ky tu
 
-    //}
+        if(buffer[j+1] == ','){
+            //j++;
+            switch(coma){
+            case 0: {
+                ap1->x=temp;
+                temp=0;
+                break;
+                }
+            case 1: {
+                ap1->y=temp;
+                temp=0;
+                break;
+                }
+            case 2: {
+                ap2->x=temp;
+                temp=0;
+                break;
+                }
+            case 3: {
+                ap2->y=temp;
+                temp=0;
+                break;
+                }
+            case 4: {
+                ap3->x=temp;
+                temp=0;
+                break;
+                }
+            }
+            //coma++;
+        }
+        else if(buffer[j+1] == '.'){
+            ap3->y=temp;
+            break;
+        }
+        else temp = temp *10;
+    }
 }
 
 //char* SSID[3] = {"Overlord", "Minh Ha", "HoangPhuc"};
@@ -228,6 +222,8 @@ int main(void){
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer
     CLOCK_setup();
     UART_INIT();
+    UART_send_string("AT+CWQAP\r\n");
+    _delay_cycles(2000000);
     /*
     UART_send_string("AT+CWLAPOPT=1,4\r\n"); // get rssi only
     _delay_cycles(2000000); //2 sec
